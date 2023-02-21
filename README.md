@@ -1,17 +1,16 @@
- # A Survey of Surveys (NLP & ML)
+ # A Survey of Surveys 
 
-In this document, we survey hundreds of survey papers on Natural Language  Processing (NLP) and Machine Learning (ML). We categorize these papers into popular topics and do simple counting for some interesting problems. In addition, we show the list of the papers with urls (813 papers). 
 
-## Categorization
 
-We follow the ACL and ICML submission guideline of recent years, covering a broad range of areas in NLP and ML. The categorization is as follows:
-+ Natural Language Processing
+## Data Science
+
+
++ Categorization
     + <a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a>
     + <a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a>
     + <a href="#generation">Generation</a>
     + <a href="#information-extraction">Information Extraction</a>
     + <a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a>
-    + <a href="#interpretability-and-analysis-of-models-for-nLP">Interpretability and Analysis of Models for NLP</a>
     + <a href="#knowledge-graph">Knowledge Graph</a>
     + <a href="#language-grounding-to-vision-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
     + <a href="#linguistic-theories-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
@@ -32,7 +31,6 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#summarization">Summarization</a>
     + <a href="#tagging-chunking-syntax-and-parsing">Tagging, Chunking, Syntax and Parsing</a>
     + <a href="#text-classification">Text Classification</a>
-+ Machine Learning
     + <a href="#architectures">Architectures</a>
     + <a href="#automl">AutoML</a>
     + <a href="#bayesian-methods">Bayesian Methods</a>
@@ -63,38 +61,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a>
 
 
-To reduce class imbalance, we separate some of the hot sub-topics from the original categorization of ACL and ICML submissions. E.g., Named Entity Recognition is a first-level area in our categorization because it is the focus of several surveys.
 
-## Statistics
-
-We show the number of paper in each area in Figures 1-2.
-
-<p align="center"><img src="https://i.loli.net/2020/12/13/uN2IiLQVXMZ9vm3.png"  width="70%" height="70%" /></p>
-
-<p align="center">Figure 1: # of papers in each NLP area.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/12/13/AdhCzxSsQFZ6pNO.png" width="70%" height="70%" /></p>
-
-<p align="center">Figure 2:  # of papers in each ML area..</p>
-
-Also, we plot paper number as a function of publication year (see Figure 3).
-
-<p align="center"><img src="https://i.loli.net/2020/12/13/FlDJGP2pbLKy8xn.png" width="70%" height="70%"/></p>
-
-<p align="center">Figure 3: # of papers vs publication year.</p>
-
-In addition, we generate word clouds to show hot topics in these surveys (see Figures 4-5).
-
-<p align="center"><img src="https://i.loli.net/2020/07/15/Iywg9lxEGYRvpHO.png" width="70%" height="70%" /></p>
-
-<p align="center">Figure 4: The word cloud for NLP.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/07/15/VYgHR6dhQc2J7Wx.png" width="70%" height="70%" /></p>
-
-<p align="center">Figure 5: The word cloud for ML.</p>
-
-
-## The NLP Paper List
 
 #### [Computational Social Science and Social Media](#content)
 
@@ -3435,26 +3402,4 @@ In addition, we generate word clouds to show hot topics in these surveys (see Fi
 13. **When Machine Learning Meets Privacy: A Survey and Outlook.** ACM Comput. Surv. 2021 [paper](https://arxiv.org/pdf/2011.11819.pdf) [bib](/bib/Machine-Learning/Trustworthy-Machine-Learning/Liu2021When.md)
 
     *Bo Liu, Ming Ding, Sina Shaham, Wenny Rahayu, Farhad Farokhi, Zihuai Lin*
-
-14. **机器学习模型安全与隐私研究综述.** 软件学报 2021 [paper](http://www.jos.org.cn/jos/ch/reader/view_abstract.aspx?file_no=6131&flag=1) [bib](/bib/Machine-Learning/Trustworthy-Machine-Learning/Ji2021Security.md)
-
-    *纪守领, 杜天宇, 李进锋, 沈超, 李博*
-
-## Team Members
-
-The project is maintained by 
-
-*Ziyang Wang, Shuhan Zhou, Nuo Xu, Bei Li, Yinqiao Li, Quan Du, Tong Xiao, and Jingbo Zhu*
-
-*Natural Language Processing Lab., School of Computer Science and Engineering, Northeastern University*
-
-*NiuTrans Research*
-
-Please feel free to contact us if you have any questions (wangziyang [at] stumail.neu.edu.cn or libei_neu [at] outlook.com).
-
-## Acknowledge
-
-We would like to thank the people who have contributed to this project. They are
-
-*Xin Zeng, Laohu Wang, Chenglong Wang, Xiaoqian Liu, Xuanjun Zhou, Jingnan Zhang, Yongyu Mu, Zefan Zhou, Yanhong Jiang, Xinyang Zhu, Xingyu Liu, Dong Bi, Ping Xu, Zijian Li, Fengning Tian, Hui Liu, Kai Feng, Yuhao Zhang, Chi Hu, Di Yang, Lei Zheng, Hexuan Chen, Zeyang Wang, Tengbo Liu, Xia Meng, Weiqiao Shan, Tao Zhou, Runzhe Cao, Yingfeng Luo, Binghao Wei, Wandi Xu, Yan Zhang, Yichao Wang, Mengyu Ma, Zihao Liu*
 
